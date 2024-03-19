@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  transition: all 0.5s;
+  transition: transform 0.5s, filter 0.5s;
 }
 
 html {
@@ -61,7 +61,7 @@ nav ul li:hover {
   text-decoration: underline;
   cursor: pointer;
   filter: brightness(0.8);
-  transform: scale(0.9);
+  
 }
 
 .dash {
@@ -88,8 +88,10 @@ nav ul li:hover {
 
 .container {
   width: 100%;
+  height: 90vh;
   display: flex;
-  flex-wrap: wrap;
+  
+  align-content: center;
   background-color: #010000;
 }
 
@@ -105,7 +107,11 @@ nav ul li:hover {
 }
 
 .main_text header h1 {
+  font-family: Helvetica, sans-serif;
   font-size: 8rem;
+  font-weight: 900;
+  line-height: 0.7;
+  margin:  0 0 1.5rem 0 ;
 }
 
 header span {
@@ -151,7 +157,10 @@ button:nth-child(2) {
 }
 
 img {
-  width: 100%;
+  width: 0%;
+  min-width: 100%;
+  
+  border-radius: 0.5rem;
   filter: brightness(0.9);
 }
 
@@ -171,9 +180,9 @@ footer {
   padding: 0.4rem;
 }
 
-@media (width <= 1350px) {
+@media (width <= 1366px) {
   html {
-    width: 100%vw;
+    width: 100%;
     height: 100vh;
   }
 
@@ -220,6 +229,10 @@ footer {
 
   .login {
     order: 0;
+  }
+
+  .container {
+    
   }
 
   footer {
