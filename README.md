@@ -1,1 +1,1 @@
-![image](https://github.com/flkvio/design-web-music-app/assets/105506000/e545ddae-ca47-454c-b4b2-0a382977a80f)
+![image](https://github.com/flkvio/design-web-music-app/assets/105506000/e9f6d63c-f4dd-43f0-a079-ad697cb6413b)
